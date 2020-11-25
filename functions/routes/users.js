@@ -1,5 +1,5 @@
 const { db } = require("../utils/admin");
-const config = require("../utils/config");
+const config = require("../../secrets.js");
 const firebase = require("firebase"); //require in firebase after installing
 firebase.initializeApp(config); //initalize firebase app
 
